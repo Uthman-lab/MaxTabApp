@@ -14,6 +14,9 @@
 		C0F5CD7D2C0DE86400C4F1A2 /* MaxTabAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5CD7C2C0DE86400C4F1A2 /* MaxTabAppTests.swift */; };
 		C0F5CD872C0DE86400C4F1A2 /* MaxTabAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5CD862C0DE86400C4F1A2 /* MaxTabAppUITests.swift */; };
 		C0F5CD892C0DE86400C4F1A2 /* MaxTabAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5CD882C0DE86400C4F1A2 /* MaxTabAppUITestsLaunchTests.swift */; };
+		C0F5CD962C0DEA9C00C4F1A2 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5CD952C0DEA9C00C4F1A2 /* data.swift */; };
+		C0F5CD982C0DEAD500C4F1A2 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5CD972C0DEAD500C4F1A2 /* TabView.swift */; };
+		C0F5CD9A2C0DEB2E00C4F1A2 /* CardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5CD992C0DEB2E00C4F1A2 /* CardTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		C0F5CD822C0DE86400C4F1A2 /* MaxTabAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxTabAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F5CD862C0DE86400C4F1A2 /* MaxTabAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxTabAppUITests.swift; sourceTree = "<group>"; };
 		C0F5CD882C0DE86400C4F1A2 /* MaxTabAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxTabAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0F5CD952C0DEA9C00C4F1A2 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		C0F5CD972C0DEAD500C4F1A2 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		C0F5CD992C0DEB2E00C4F1A2 /* CardTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				C0F5CD6B2C0DE86200C4F1A2 /* MaxTabAppApp.swift */,
-				C0F5CD6D2C0DE86200C4F1A2 /* ContentView.swift */,
+				C0F5CD9D2C0DFC4300C4F1A2 /* Components */,
+				C0F5CD9C2C0DFBD900C4F1A2 /* Views */,
+				C0F5CD9B2C0DFBCD00C4F1A2 /* Data */,
 				C0F5CD6F2C0DE86400C4F1A2 /* Assets.xcassets */,
 				C0F5CD712C0DE86400C4F1A2 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				C0F5CD882C0DE86400C4F1A2 /* MaxTabAppUITestsLaunchTests.swift */,
 			);
 			path = MaxTabAppUITests;
+			sourceTree = "<group>";
+		};
+		C0F5CD9B2C0DFBCD00C4F1A2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5CD952C0DEA9C00C4F1A2 /* data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C0F5CD9C2C0DFBD900C4F1A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5CD6D2C0DE86200C4F1A2 /* ContentView.swift */,
+				C0F5CD972C0DEAD500C4F1A2 /* TabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0F5CD9D2C0DFC4300C4F1A2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5CD992C0DEB2E00C4F1A2 /* CardTabView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0F5CD6E2C0DE86200C4F1A2 /* ContentView.swift in Sources */,
+				C0F5CD962C0DEA9C00C4F1A2 /* data.swift in Sources */,
+				C0F5CD9A2C0DEB2E00C4F1A2 /* CardTabView.swift in Sources */,
+				C0F5CD982C0DEAD500C4F1A2 /* TabView.swift in Sources */,
 				C0F5CD6C2C0DE86200C4F1A2 /* MaxTabAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
